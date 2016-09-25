@@ -1,0 +1,2 @@
+#忽略node_modules，不被提交
+node_modules
