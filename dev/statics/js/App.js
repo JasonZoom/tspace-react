@@ -1,2 +1,2 @@
-var Parent = require('./Parent.js');
-ReactDOM.render(<Parent />, document.getElementById('app'));
+var Log = require('./Log.js');
+ReactDOM.render(<Log/>, document.getElementById('viewbox'));

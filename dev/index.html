@@ -11,18 +11,17 @@
 		<title>TSpace</title>
 		<!-- <meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi"> -->
 		<meta name="viewport" content = "width=device-api,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-		<!-- build:css -->
-		<link rel="stylesheet" type="text/css" href="statics/css/common.css?rev=a3cfdf0edf5f97733e2e72f0d7a30da1">
-		<link rel="stylesheet" type="text/css" href="statics/css/index.css?rev=bb783a58fe0f5bb488254ad28aec44a3">
-		<!-- endbuild -->
+		<!--build:css-->
+		<link rel="stylesheet" href="statics/css/common.css?rev=a3cfdf0edf5f97733e2e72f0d7a30da1">
+		<link rel="stylesheet" href="statics/css/index.css?rev=9ac5558a6af39c521c9225b8cfe0013a">
+		<!--endbuild -->
 		<script type="text/javascript" src="statics/libs/myflexible.js"></script>
 		<script type="text/javascript" src="statics/libs/zepto.min.js"></script>
 		<script type="text/javascript" src="statics/libs/react.js"></script>
 		<script type="text/javascript" src="statics/libs/react-dom.js"></script>
-		
 	</head>
 	<body>
-		<div class="viewbox">
+		<div class="viewbox" id="viewbox">
 			<header>
 				TSpace
 			</header>
@@ -30,23 +29,15 @@
 				<div class="tac pd20 fs24">
 					分享心情的空间，记录美好的时刻
 				</div>
-				<div id="app"></div>
-				<div class="login-box">
-					<div class="frombox fs30 mb20">
-						<input type="text" placeholder="用户名" name="username">
-					</div>
-					<div class="frombox fs30 mb20">
-						<input type="password" placeholder="密码" name="password">
-					</div>
-					<div class="frombox fs30 mt40">
-						<a href="javascript:;">登录</a>
-					</div>
+				<div class="login-box" id="login-box">
+					
 				</div>
 				
 			</section>
 		</div>
 	</body>
 </html>
-<!-- build:js -->
-	<script type="text/javascript" src="statics/build/build.js?rev=8efcf07096329e677c017a5e54f1a03d"></script>
-<!-- endbuild -->
+<!--build:js-->
+<script src="statics/build/indexbuild.js?rev=ff8d904e7879fc29d07d19d90f45b1c7"></script>
+<!--endbuild -->
+
